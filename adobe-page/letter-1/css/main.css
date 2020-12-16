@@ -69,22 +69,22 @@ li {
 	  color: grey;
 }
 
-section {
+main {
 	background: #fff;
 }
 
-div.section_header {
+div.top-container {
 	display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
-a.logo_main {
+.top-container :first-child {
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
-p.lineheader {
+.top-container :nth-child(2) {
 	border-left: 1px solid red;
 	height: 45px;
 	margin: 0px 20px 0px auto;
@@ -105,12 +105,12 @@ figure {
 	margin-bottom: 40px;
 }
 
-div.section {
+.section {
 	padding: 0 50px;
 	margin-bottom: 50px;
 }
 
-p.h2 {
+.section :first-child {
 	font-style: italic;
 	font-weight: 100;
 	font-size: 20px;
@@ -136,7 +136,7 @@ hr {
 	margin-bottom: 30px;
 }
 
-p.body {
+.section :nth-child(4) {
 	font-weight: 300;
 	font-size: 14px;
 	color: #333333;
@@ -153,8 +153,21 @@ p.body {
 	flex: 45%;
 }
 
+.flex-item-left :nth-child(2) {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 24px;
+	color: #333333;
+	font-family: "Helvetica Neue";
+}
+
 .flex-item-center {
 	flex: 10%;
+}
+
+.flex-item-center :first-child {
+	border-left: 1px solid red;
+	height: 150px;
 }
 
 .flex-item-right {
@@ -168,17 +181,7 @@ h3 {
 	color: #FA0F00;
 }
 
-p.time {
-	font-weight: 100;
-	font-style: italic;
-	font-size: 24px;
-	color: #333333;
-	font-family: "Helvetica Neue";
-}
 
-p.linefoot {
-	border-left: 1px solid red;
-	height: 150px;
 
-}
+
 
