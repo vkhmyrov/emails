@@ -146,11 +146,22 @@ hr {
 .flex-container {
 	display: flex;
 	margin-left: 50px; 
-	margin-right: 50px; 
+	margin-right: 50px;
+	align-items: center;
 }
 
 .flex-item-left {
-	flex: 45%;
+	flex: 46%;
+
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 24px;
+	font-weight: 300;
+	color: #FA0F00;
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 .flex-item-left :nth-child(2) {
@@ -159,27 +170,56 @@ hr {
 	font-size: 24px;
 	color: #333333;
 	font-family: "Helvetica Neue";
+	margin-top: 0;
+	margin-bottom: 20px;
+
+}
+
+button {
+	background-color: #000000;
+	border: none;
+	color: #ffffff;
+	padding: 8px 20px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+	width: 200px;
+	border-radius: 100px;
 }
 
 .flex-item-center {
-	flex: 10%;
-}
-
-.flex-item-center :first-child {
+	flex: 5%;
 	border-left: 1px solid red;
-	height: 150px;
+	height: 200px;
 }
 
 .flex-item-right {
-	flex: 45%;
+	flex: 48%;
+}
+
+h4 {
+	font-size: 14px;
+	color: #fa0f00;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.flex-item-right :nth-child(2) {
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.flex-item-right :nth-child(3) {
+	font-size: 14px;
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 
-h3 {
-	font-weight: normal;
-	font-size: 24px;
-	color: #FA0F00;
-}
+
 
 
 
