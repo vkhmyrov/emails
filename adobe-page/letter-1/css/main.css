@@ -145,13 +145,12 @@ hr {
 
 .flex-container {
 	display: flex;
-	margin-left: 50px; 
-	margin-right: 50px;
+	padding: 0 50px 35px 50px; 
 	align-items: center;
 }
 
 .flex-item-left {
-	flex: 46%;
+	flex: 48%;
 
 }
 
@@ -188,13 +187,13 @@ button {
 }
 
 .flex-item-center {
-	flex: 5%;
+	flex: 6%;
 	border-left: 1px solid red;
 	height: 200px;
 }
 
 .flex-item-right {
-	flex: 48%;
+	flex: 46%;
 }
 
 h4 {
